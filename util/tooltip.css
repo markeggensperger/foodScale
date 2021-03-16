@@ -1,0 +1,24 @@
+.foodScaleTooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.foodScaleTooltip .foodScaleTooltipText {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: smaller;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.foodScaleTooltip:hover .foodScaleTooltipText {
+  visibility: visible;
+}

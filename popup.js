@@ -26,3 +26,4 @@ function convertItems() {
     chrome.tabs.sendMessage(tabs[0].id, { type: 'convert' });
   }
 }
+convert;
